@@ -1,0 +1,3 @@
+aws sagemaker-runtime invoke-endpoint --endpoint-name <endpoint-name> --body fileb://<filename> --profile [PROFILE-NAME] ./output.json
+
+aws sagemaker list-endpoints --region us-east-1
